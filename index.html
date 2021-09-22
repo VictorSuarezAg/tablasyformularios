@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Formularios</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h1>Tablas y Formularios</h1>
+    <div class="tabla">
+        <center>
+            <table>
+                <tr class="titleTable">
+                    <th colspan="5" scope="row">
+                        Datos Personales
+                    </th>
+                </tr>
+                <tr class="datos">
+                    <td>Nombre</td>
+                    <td>Apellido</td>
+                    <td>Documento</td>
+                    <td>Edad</td>
+                    <td>Cargo</td>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>Perez</td>
+                    <td class="cc">12345</td>
+                    <td class="edad">23</td>
+                    <td>Apoyo Administrativo</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>López</td>
+                    <td class="cc">23456</td>
+                    <td class="edad">32</td>
+                    <td>Auxiliar</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>Martinez</td>
+                    <td class="cc">34567</td>
+                    <td class="edad">42</td>
+                    <td>Auxiliar</td>
+                </tr>
+                <tr>
+                    <td>Daniel</td>
+                    <td>Salcedo</td>
+                    <td class="cc">45678</td>
+                    <td class="edad">31</td>
+                    <td>Gerente</td>
+                </tr>
+                <tr>
+                    <td>Andrea</td>
+                    <td>Ruiz</td>
+                    <td class="cc">56789</td>
+                    <td class="edad">22</td>
+                    <td>Secretaria</td>
+                </tr>
+                <tr>
+                    <td>Patricia</td>
+                    <td>Cardenas</td>
+                    <td class="cc">67891</td>
+                    <td class="edad">54</td>
+                    <td>Coordinador de procesos</td>
+                </tr>
+                <tr>
+                    <td colspan="5">Esta tabla corresponde a la información correspondiente con la base de datos de la empresa</td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div class="formulario">
+        <h2>Formulario</h2>
+        <form action="post">
+            <div class="name">
+                <label>Nombre:</label>
+                <input type="text" placeholder="Nombre Completo">
+            </div>
+            <div class="age">
+                <label>Edad:</label>
+                <input type="number" placeholder="Edad">
+            </div>
+            <div class="mail">
+                <label>Email:</label>
+                <input type="email" placeholder="example@example.com">
+            </div>
+            <div class="gener">
+                <label>Seleccione su genero:</label>
+                <label> <input type="radio">Masculino</label>
+                <label><input type="radio">Femenino</label>
+            </div>
+            <div class="birthday">
+                <label>Fecha de nacimiento:</label>
+                <input type="date">
+            </div>
+            <div class="cargo">
+                <label>Cargo:</label>
+                <select>
+                    <option class="select">Seleccione un cargo</option>
+                    <option>Auxiliar</option>
+                    <option>Apoyo</option>
+                    <option>Profesional</option>
+                    <option>Ingeniero</option>
+                    <option>Administrativo</option>
+                    <option>Gerente</option>
+                </select>
+            </div>
+            <div class="message">
+                <label>Comentario:</label>
+                <textarea cols="30" rows="10" placeholder="Ingresa tu comentario"></textarea>
+            </div>
+            <div class="archive">
+                <label>Adjunta un archivo</label>
+                <input type="file" class="btn-archive">
+            </div>
+            <div class="submit">
+                <input type="submit" value="Enviar el formulario" class="btn">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

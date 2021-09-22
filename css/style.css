@@ -1,0 +1,151 @@
+body {
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: teal;
+}
+
+table {
+    margin-top: 30px;
+    border: 1px solid #000;
+    border-spacing: 0;
+    border-radius: 5px;
+}
+
+td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 10px;
+}
+
+table tbody td {
+    text-align: left;
+}
+
+th {
+    border: 1px solid #000;
+    background-color: teal;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+}
+
+.datos {
+    background-color: burlywood;
+}
+
+.edad,
+.cc {
+    text-align: right;
+}
+
+/*-------------------------*/
+/*------Formulario---------*/
+/*-------------------------*/
+.formulario {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: teal;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+.name input,
+.age input,
+.mail input,
+.birthday input,
+.cargo select {
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    padding: 5px 10px;
+}
+
+.message textarea {
+    border-radius: 5px;
+    border: 2px solid #000;
+    padding: 5px 10px;
+}
+
+.name,
+.age,
+.mail,
+.birthday,
+.cargo,
+.message,
+.archive {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 2 - 20px);
+}
+
+.name label,
+.age label,
+.mail label,
+.birthday label,
+.cargo label,
+.message label,
+.archive label {
+    margin-bottom: 5px;
+}
+
+.gener {
+    align-self: center;
+    margin-bottom: 0;
+    width: calc(100% / 2 - 20px);
+}
+
+.gener input {
+    border: 2px solid #000;
+}
+
+.gener label:nth-child(2) {
+    margin-right: 30px;
+}
+
+.submit {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border: 2px solid teal;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: ease-in-out .5s;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.btn:hover {
+    background: white;
+    color: teal;
+    transition: ease-in-out .5s;
+}
